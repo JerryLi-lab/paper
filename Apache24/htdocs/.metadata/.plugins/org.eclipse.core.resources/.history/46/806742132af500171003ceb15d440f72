@@ -1,0 +1,35 @@
+<?php
+	$page = isset($_POST['page']) ? intval($_POST['page']) : 1;
+	$rows = isset($_POST['rows']) ? intval($_POST['rows']) : 10;
+	$offset = ($page-1)*$rows;
+	$response = array();
+
+	include 'conn.php';
+	
+	$result = $conn->query("select count(*) from users");
+	
+	if ($result->num_rows > 0) {
+	    // 输出数据
+	    while($row = $result->fetch_assoc()) {
+	        $response["total"] = $row["count(*)"];
+	    }
+	} else {
+	    echo "0 结果";
+	}
+	
+	$result = $conn->query("select * from users limit $offset,$rows");
+	$items = array();
+	if ($result->num_rows > 0) {
+	    // 输出数据
+	    while($row = $result->fetch_assoc()) {
+	        array_push($items, $row);
+	    }
+	} else {
+	    echo "0 结果";
+	}
+	
+	$response["rows"] = $items;
+
+	echo json_encode($response);
+
+?>

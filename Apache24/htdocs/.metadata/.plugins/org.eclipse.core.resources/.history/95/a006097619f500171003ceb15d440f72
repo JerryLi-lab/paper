@@ -1,0 +1,9 @@
+<?php
+
+$conn = new mysqli("127.0.0.1", "root", "123456", "paper");
+if ($conn->connect_error) {
+    die('Could not connect: ' . $conn->connect_error);
+}
+mysql_select_db('mydb', $conn);
+
+?>

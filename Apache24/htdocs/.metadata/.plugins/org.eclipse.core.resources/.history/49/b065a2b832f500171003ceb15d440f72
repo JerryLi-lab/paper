@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html style="height:100%;width:100%;">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>考勤系统</title>
+	<link rel="stylesheet" type="text/css" href="js/lib/jquery-easyui-1.3.2/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="js/lib/jquery-easyui-1.3.2/themes/icon.css">
+	<script type="text/javascript" src="js/lib/jquery-easyui-1.3.2/jquery-1.8.0.min.js"></script>
+	<script type="text/javascript" src="js/lib/jquery-easyui-1.3.2/jquery.easyui.min.js"></script>
+	<script>
+		$(function(){
+			$('#win').window({
+		        collapsible:false,
+		        minimizable:false,
+		        maximizable:false,
+		        closable:false
+		    });
+		    $('#sign_in').click(function(){
+			    var name = $("#name")[0].value;
+			    var password = $("#password")[0].value;
+		    	$.post('sign_in.php',{name: name, password: password},function(result){
+					if (result.success){
+						window.location.href ='index.php';
+					} else {
+						$.messager.show({	// show error message
+							title: 'Error',
+							msg: result.msg
+						});
+					}
+				},'json');
+			})
+		});
+
+
+		var url;
+		function newUser(){
+			$('#dlg').dialog('open').dialog('setTitle','New User');
+			$('#fm').form('clear');
+			url = 'save_user.php';
+		}
+	</script>
+</head>
+<body style="height:100%;width:100%;overflow:hidden;border:none;" >
+	
+	<div id="win" class="easyui-window" title="Login" style="width:300px;height:180px;">
+		<form style="padding:10px 20px 10px 40px;">
+			<p>Name: <input type="text" id = "name"></p>
+			<p>Pass: <input type="password" id = "password"></p>
+			<div style="padding:5px;text-align:center;">
+				<a href="#" class="easyui-linkbutton" icon="icon-ok" id = "sign_in">Sign in</a>
+				<a href="#" class="easyui-linkbutton" icon="icon-cancel" id = "sign_up">Sign up</a>
+			</div>
+		</form>
+	</div>
+	
+	
+	<div id="dlg" class="easyui-dialog" style="width:400px;height:280px;padding:10px 20px"
+			closed="true" buttons="#dlg-buttons">
+		<div class="ftitle">User Information</div>
+		<form id="fm" method="post" novalidate>
+			<div class="fitem">
+				<label>First Name:</label>
+				<input name="firstname" class="easyui-validatebox" required="true">
+			</div>
+			<div class="fitem">
+				<label>Last Name:</label>
+				<input name="lastname" class="easyui-validatebox" required="true">
+			</div>
+			<div class="fitem">
+				<label>Phone:</label>
+				<input name="phone">
+			</div>
+			<div class="fitem">
+				<label>Email:</label>
+				<input name="email" class="easyui-validatebox" validType="email">
+			</div>
+		</form>
+	</div>
+	<div id="dlg-buttons">
+		<a href="#" class="easyui-linkbutton" iconCls="icon-ok" onclick="saveUser()">Save</a>
+		<a href="#" class="easyui-linkbutton" iconCls="icon-cancel" onclick="javascript:$('#dlg').dialog('close')">Cancel</a>
+	</div>
+	
+</body>
+</html>

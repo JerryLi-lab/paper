@@ -1,0 +1,35 @@
+<?php
+    $name = $_REQUEST['name'];
+    $password = $_REQUEST['password'];
+    
+    if ($name || $password)
+    {
+        echo json_encode(array('success'=>false, 'msg'=>'账号密码错误！'));
+        return
+    }
+    
+    include 'conn.php';
+    
+    try{
+        $sql = "select * from users where user_name = '$name'";
+        $result = $conn->query($sql);
+        if ($result->num_rows > 0) {
+            while($row = $result->fetch_assoc()) {
+                if ($row["password"] == $password)
+                {
+                    session_start();
+                    $_SESSION['username'] = $name;
+                    echo json_encode(array('success'=>true));
+                    return;
+                }
+            }
+        } 
+    }
+    catch (Exception $e)
+    {
+        echo $e;
+    }
+        
+    echo json_encode(array('success'=>false, 'msg'=>'账号密码错误！'));
+    
+?>

@@ -1,0 +1,560 @@
+[Tue Jan 09 10:30:56.891215 2018] [mpm_winnt:notice] [pid 10020:tid 512] AH00455: Apache/2.4.29 (Win64) PHP/7.2.1 configured -- resuming normal operations
+[Tue Jan 09 10:30:56.891215 2018] [mpm_winnt:notice] [pid 10020:tid 512] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Tue Jan 09 10:30:56.891215 2018] [core:notice] [pid 10020:tid 512] AH00094: Command line: 'F:\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d F:/httpd-2.4.29-Win64-VC15/Apache24'
+[Tue Jan 09 10:30:56.901215 2018] [mpm_winnt:notice] [pid 10020:tid 512] AH00418: Parent: Created child process 9156
+[Tue Jan 09 10:30:57.839269 2018] [mpm_winnt:notice] [pid 9156:tid 256] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 09 10:31:57.410676 2018] [php7:error] [pid 9156:tid 816] [client ::1:22242] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\conn.php:3\nStack trace:\n#0 F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\get_users.php(7): include()\n#1 {main}\n  thrown in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\conn.php on line 3, referer: http://localhost/
+[Tue Jan 09 10:47:53.322351 2018] [mpm_winnt:notice] [pid 10020:tid 512] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 09 10:47:55.322466 2018] [mpm_winnt:notice] [pid 9156:tid 256] AH00364: Child: All worker threads have exited.
+[Tue Jan 09 10:47:55.342467 2018] [mpm_winnt:notice] [pid 10020:tid 512] AH00430: Parent: Child process 9156 exited successfully.
+[Tue Jan 09 10:54:19.030412 2018] [mpm_winnt:notice] [pid 7916:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.1 configured -- resuming normal operations
+[Tue Jan 09 10:54:19.030412 2018] [mpm_winnt:notice] [pid 7916:tid 360] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Tue Jan 09 10:54:19.030412 2018] [core:notice] [pid 7916:tid 360] AH00094: Command line: 'F:\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d F:/httpd-2.4.29-Win64-VC15/Apache24'
+[Tue Jan 09 10:54:19.035413 2018] [mpm_winnt:notice] [pid 7916:tid 360] AH00418: Parent: Created child process 6512
+[Tue Jan 09 10:54:19.303428 2018] [mpm_winnt:notice] [pid 6512:tid 252] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 09 10:54:45.439923 2018] [php7:notice] [pid 6512:tid 780] [client ::1:22735] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\conn.php:3\nStack trace:\n#0 F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\get_users.php(7): include()\n#1 {main}\n  thrown in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\conn.php on line 3, referer: http://localhost/
+[Tue Jan 09 10:54:58.207653 2018] [php7:notice] [pid 6512:tid 780] [client ::1:22769] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\conn.php:3\nStack trace:\n#0 F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\get_users.php(7): include()\n#1 {main}\n  thrown in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\conn.php on line 3, referer: http://localhost/
+[Tue Jan 09 10:55:11.489413 2018] [mpm_winnt:notice] [pid 7916:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 09 10:55:13.489527 2018] [mpm_winnt:notice] [pid 6512:tid 252] AH00364: Child: All worker threads have exited.
+[Tue Jan 09 10:55:13.509528 2018] [mpm_winnt:notice] [pid 7916:tid 360] AH00430: Parent: Child process 6512 exited successfully.
+[Tue Jan 09 12:06:59.409812 2018] [mpm_winnt:notice] [pid 9268:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.1 configured -- resuming normal operations
+[Tue Jan 09 12:06:59.409812 2018] [mpm_winnt:notice] [pid 9268:tid 360] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Tue Jan 09 12:06:59.409812 2018] [core:notice] [pid 9268:tid 360] AH00094: Command line: 'F:\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d F:/httpd-2.4.29-Win64-VC15/Apache24'
+[Tue Jan 09 12:06:59.414812 2018] [mpm_winnt:notice] [pid 9268:tid 360] AH00418: Parent: Created child process 5032
+[Tue Jan 09 12:06:59.726830 2018] [mpm_winnt:notice] [pid 5032:tid 252] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 09 12:07:08.693343 2018] [php7:notice] [pid 5032:tid 776] [client ::1:24473] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\conn.php:3\nStack trace:\n#0 F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\get_users.php(7): include()\n#1 {main}\n  thrown in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\conn.php on line 3, referer: http://localhost/
+[Tue Jan 09 12:08:18.253321 2018] [mpm_winnt:notice] [pid 9268:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 09 12:08:20.253436 2018] [mpm_winnt:notice] [pid 5032:tid 252] AH00364: Child: All worker threads have exited.
+[Tue Jan 09 12:08:20.273437 2018] [mpm_winnt:notice] [pid 9268:tid 360] AH00430: Parent: Child process 5032 exited successfully.
+[Tue Jan 09 12:12:27.130556 2018] [mpm_winnt:notice] [pid 7620:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.1 configured -- resuming normal operations
+[Tue Jan 09 12:12:27.130556 2018] [mpm_winnt:notice] [pid 7620:tid 360] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Tue Jan 09 12:12:27.130556 2018] [core:notice] [pid 7620:tid 360] AH00094: Command line: 'F:\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d F:/httpd-2.4.29-Win64-VC15/Apache24'
+[Tue Jan 09 12:12:27.135557 2018] [mpm_winnt:notice] [pid 7620:tid 360] AH00418: Parent: Created child process 6396
+[Tue Jan 09 12:12:27.460575 2018] [mpm_winnt:notice] [pid 6396:tid 252] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 09 12:32:22.001899 2018] [php7:notice] [pid 6396:tid 780] [client 127.0.0.1:25051] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\conn.php:3\nStack trace:\n#0 F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\get_users.php(7): include()\n#1 {main}\n  thrown in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\conn.php on line 3, referer: http://localhost/
+[Tue Jan 09 12:44:50.438707 2018] [mpm_winnt:notice] [pid 7620:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 09 12:44:52.438822 2018] [mpm_winnt:notice] [pid 6396:tid 252] AH00364: Child: All worker threads have exited.
+[Tue Jan 09 12:44:52.458823 2018] [mpm_winnt:notice] [pid 7620:tid 360] AH00430: Parent: Child process 6396 exited successfully.
+[Tue Jan 09 12:51:13.173598 2018] [mpm_winnt:notice] [pid 9496:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.1 configured -- resuming normal operations
+[Tue Jan 09 12:51:13.173598 2018] [mpm_winnt:notice] [pid 9496:tid 360] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Tue Jan 09 12:51:13.173598 2018] [core:notice] [pid 9496:tid 360] AH00094: Command line: 'F:\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d F:/httpd-2.4.29-Win64-VC15/Apache24'
+[Tue Jan 09 12:51:13.178599 2018] [mpm_winnt:notice] [pid 9496:tid 360] AH00418: Parent: Created child process 7128
+[Tue Jan 09 12:51:13.460615 2018] [mpm_winnt:notice] [pid 7128:tid 252] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 09 13:17:19.458185 2018] [php7:notice] [pid 7128:tid 776] [client ::1:26176] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\conn.php:3\nStack trace:\n#0 F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\get_users.php(7): include()\n#1 {main}\n  thrown in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\conn.php on line 3, referer: http://localhost/index1.html
+[Tue Jan 09 13:17:55.774262 2018] [php7:notice] [pid 7128:tid 776] [client 127.0.0.1:26189] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\conn.php:3\nStack trace:\n#0 F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\get_users.php(7): include()\n#1 {main}\n  thrown in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\conn.php on line 3, referer: http://localhost/index1.html
+[Tue Jan 09 13:18:11.780177 2018] [php7:notice] [pid 7128:tid 776] [client 127.0.0.1:26198] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\conn.php:3\nStack trace:\n#0 F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\get_users.php(7): include()\n#1 {main}\n  thrown in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\conn.php on line 3, referer: http://localhost/index1.html
+[Tue Jan 09 13:21:17.399794 2018] [php7:error] [pid 7128:tid 776] [client 127.0.0.1:26344] script 'F:/httpd-2.4.29-Win64-VC15/Apache24/htdocs/_intellij_phpdebug_validator.php' not found or unable to stat
+[Tue Jan 09 13:21:39.764073 2018] [php7:error] [pid 7128:tid 776] [client 127.0.0.1:26345] script 'F:/httpd-2.4.29-Win64-VC15/Apache24/htdocs/_intellij_phpdebug_validator.php' not found or unable to stat
+[Tue Jan 09 13:22:04.440485 2018] [mpm_winnt:notice] [pid 9496:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 09 13:22:06.441599 2018] [mpm_winnt:notice] [pid 7128:tid 252] AH00364: Child: All worker threads have exited.
+[Tue Jan 09 13:22:06.462600 2018] [mpm_winnt:notice] [pid 9496:tid 360] AH00430: Parent: Child process 7128 exited successfully.
+[Tue Jan 09 15:10:12.307570 2018] [mpm_winnt:notice] [pid 4136:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.1 configured -- resuming normal operations
+[Tue Jan 09 15:10:12.307570 2018] [mpm_winnt:notice] [pid 4136:tid 360] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Tue Jan 09 15:10:12.307570 2018] [core:notice] [pid 4136:tid 360] AH00094: Command line: 'F:\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d F:/httpd-2.4.29-Win64-VC15/Apache24'
+[Tue Jan 09 15:10:12.312570 2018] [mpm_winnt:notice] [pid 4136:tid 360] AH00418: Parent: Created child process 7172
+[Tue Jan 09 15:10:12.591586 2018] [mpm_winnt:notice] [pid 7172:tid 252] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 09 15:10:41.572243 2018] [mpm_winnt:notice] [pid 4136:tid 360] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Jan 09 15:10:41.641247 2018] [mpm_winnt:notice] [pid 4136:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.1 configured -- resuming normal operations
+[Tue Jan 09 15:10:41.641247 2018] [mpm_winnt:notice] [pid 4136:tid 360] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Tue Jan 09 15:10:41.641247 2018] [core:notice] [pid 4136:tid 360] AH00094: Command line: 'F:\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d F:/httpd-2.4.29-Win64-VC15/Apache24'
+[Tue Jan 09 15:10:41.651248 2018] [mpm_winnt:notice] [pid 4136:tid 360] AH00418: Parent: Created child process 3160
+[Tue Jan 09 15:10:42.572301 2018] [mpm_winnt:notice] [pid 3160:tid 252] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 09 15:10:43.572358 2018] [mpm_winnt:notice] [pid 7172:tid 252] AH00364: Child: All worker threads have exited.
+[Tue Jan 09 15:20:43.803689 2018] [php7:notice] [pid 3160:tid 816] [client ::1:27904] PHP Warning:  Use of undefined constant a - assumed 'a' (this will throw an Error in a future version of PHP) in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\debugtest\\index.php on line 3
+[Tue Jan 09 15:20:43.803689 2018] [php7:notice] [pid 3160:tid 816] [client ::1:27904] PHP Stack trace:
+[Tue Jan 09 15:20:43.803689 2018] [php7:notice] [pid 3160:tid 816] [client ::1:27904] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\debugtest\\index.php:0
+[Tue Jan 09 15:34:36.871338 2018] [mpm_winnt:notice] [pid 4136:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 09 15:34:38.871452 2018] [mpm_winnt:notice] [pid 3160:tid 252] AH00364: Child: All worker threads have exited.
+[Tue Jan 09 15:34:38.894454 2018] [mpm_winnt:notice] [pid 4136:tid 360] AH00430: Parent: Child process 3160 exited successfully.
+[Tue Jan 09 15:36:41.356458 2018] [mpm_winnt:notice] [pid 4452:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.1 configured -- resuming normal operations
+[Tue Jan 09 15:36:41.356458 2018] [mpm_winnt:notice] [pid 4452:tid 360] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Tue Jan 09 15:36:41.356458 2018] [core:notice] [pid 4452:tid 360] AH00094: Command line: 'F:\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d F:/httpd-2.4.29-Win64-VC15/Apache24'
+[Tue Jan 09 15:36:41.370459 2018] [mpm_winnt:notice] [pid 4452:tid 360] AH00418: Parent: Created child process 7104
+[Tue Jan 09 15:36:41.738480 2018] [mpm_winnt:notice] [pid 7104:tid 252] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 09 15:38:12.800688 2018] [php7:notice] [pid 7104:tid 776] [client ::1:28050] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\conn.php:3\nStack trace:\n#0 F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\get_users.php(7): include()\n#1 {main}\n  thrown in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\conn.php on line 3
+[Tue Jan 09 15:39:20.421556 2018] [php7:notice] [pid 7104:tid 776] [client ::1:28071] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\conn.php:3\nStack trace:\n#0 F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\get_users.php(7): include()\n#1 {main}\n  thrown in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\conn.php on line 3, referer: http://localhost/paper/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154835544084
+[Tue Jan 09 15:40:18.163859 2018] [php7:notice] [pid 7104:tid 776] [client ::1:28076] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\conn.php:3\nStack trace:\n#0 F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\get_users.php(7): include()\n#1 {main}\n  thrown in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\conn.php on line 3, referer: http://localhost/paper/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154835544084
+[Tue Jan 09 15:42:51.406624 2018] [mpm_winnt:notice] [pid 4452:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 09 15:42:53.407738 2018] [mpm_winnt:notice] [pid 7104:tid 252] AH00364: Child: All worker threads have exited.
+[Tue Jan 09 15:42:53.427739 2018] [mpm_winnt:notice] [pid 4452:tid 360] AH00430: Parent: Child process 7104 exited successfully.
+[Tue Jan 09 15:43:04.529374 2018] [mpm_winnt:notice] [pid 7344:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.1 configured -- resuming normal operations
+[Tue Jan 09 15:43:04.529374 2018] [mpm_winnt:notice] [pid 7344:tid 360] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Tue Jan 09 15:43:04.529374 2018] [core:notice] [pid 7344:tid 360] AH00094: Command line: 'F:\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d F:/httpd-2.4.29-Win64-VC15/Apache24'
+[Tue Jan 09 15:43:04.534375 2018] [mpm_winnt:notice] [pid 7344:tid 360] AH00418: Parent: Created child process 10212
+[Tue Jan 09 15:43:04.821391 2018] [mpm_winnt:notice] [pid 10212:tid 252] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 09 15:44:09.913114 2018] [php7:notice] [pid 10212:tid 780] [client ::1:28126] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\conn.php:3\nStack trace:\n#0 F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\get_users.php(7): include()\n#1 {main}\n  thrown in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\conn.php on line 3, referer: http://localhost/paper/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154838490571
+[Tue Jan 09 16:23:05.411697 2018] [mpm_winnt:notice] [pid 7344:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 09 16:23:07.411811 2018] [mpm_winnt:notice] [pid 10212:tid 252] AH00364: Child: All worker threads have exited.
+[Tue Jan 09 16:23:07.432812 2018] [mpm_winnt:notice] [pid 7344:tid 360] AH00430: Parent: Child process 10212 exited successfully.
+[Tue Jan 09 16:24:47.659545 2018] [mpm_winnt:notice] [pid 5092:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.1 configured -- resuming normal operations
+[Tue Jan 09 16:24:47.659545 2018] [mpm_winnt:notice] [pid 5092:tid 360] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Tue Jan 09 16:24:47.659545 2018] [core:notice] [pid 5092:tid 360] AH00094: Command line: 'F:\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d F:/httpd-2.4.29-Win64-VC15/Apache24'
+[Tue Jan 09 16:24:47.664545 2018] [mpm_winnt:notice] [pid 5092:tid 360] AH00418: Parent: Created child process 9356
+[Tue Jan 09 16:24:47.945561 2018] [mpm_winnt:notice] [pid 9356:tid 252] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 09 16:25:24.106630 2018] [php7:notice] [pid 9356:tid 776] [client 127.0.0.1:30280] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\conn.php:3\nStack trace:\n#0 F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\get_users.php(7): include()\n#1 {main}\n  thrown in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\conn.php on line 3, referer: http://localhost/index1.html
+[Tue Jan 09 16:28:08.065008 2018] [php7:notice] [pid 9356:tid 776] [client 127.0.0.1:30429] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\conn.php:3\nStack trace:\n#0 F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\get_users.php(7): include()\n#1 {main}\n  thrown in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\conn.php on line 3, referer: http://localhost/?XDEBUG_SESSION_START=12917
+[Tue Jan 09 16:31:26.319347 2018] [php7:error] [pid 9356:tid 776] [client ::1:30445] script 'F:/httpd-2.4.29-Win64-VC15/Apache24/htdocs/index1.php' not found or unable to stat
+[Tue Jan 09 16:48:43.815689 2018] [php7:notice] [pid 9356:tid 776] [client ::1:30948] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'paper' in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\conn.php on line 3, referer: http://localhost/paper/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154877230351
+[Tue Jan 09 16:48:43.815689 2018] [php7:notice] [pid 9356:tid 776] [client ::1:30948] PHP Stack trace:, referer: http://localhost/paper/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154877230351
+[Tue Jan 09 16:48:43.815689 2018] [php7:notice] [pid 9356:tid 776] [client ::1:30948] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\get_users.php:0, referer: http://localhost/paper/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154877230351
+[Tue Jan 09 16:48:43.815689 2018] [php7:notice] [pid 9356:tid 776] [client ::1:30948] PHP   2. include() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\get_users.php:7, referer: http://localhost/paper/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154877230351
+[Tue Jan 09 16:48:43.815689 2018] [php7:notice] [pid 9356:tid 776] [client ::1:30948] PHP   3. mysqli->__construct(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\conn.php:3, referer: http://localhost/paper/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154877230351
+[Tue Jan 09 16:50:55.263207 2018] [php7:notice] [pid 9356:tid 776] [client ::1:31102] PHP Notice:  Undefined offset: 0 in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\get_users.php on line 14, referer: http://localhost/paper/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154877230351
+[Tue Jan 09 16:50:55.263207 2018] [php7:notice] [pid 9356:tid 776] [client ::1:31102] PHP Stack trace:, referer: http://localhost/paper/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154877230351
+[Tue Jan 09 16:50:55.263207 2018] [php7:notice] [pid 9356:tid 776] [client ::1:31102] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\get_users.php:0, referer: http://localhost/paper/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154877230351
+[Tue Jan 09 16:50:55.263207 2018] [php7:notice] [pid 9356:tid 776] [client ::1:31102] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\get_users.php:14\nStack trace:\n#0 {main}\n  thrown in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\get_users.php on line 14, referer: http://localhost/paper/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154877230351
+[Tue Jan 09 16:56:20.095786 2018] [php7:notice] [pid 9356:tid 776] [client ::1:31230] PHP Notice:  Undefined offset: 0 in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\get_users.php on line 14, referer: http://localhost/paper/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154881730892
+[Tue Jan 09 16:56:20.095786 2018] [php7:notice] [pid 9356:tid 776] [client ::1:31230] PHP Stack trace:, referer: http://localhost/paper/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154881730892
+[Tue Jan 09 16:56:20.095786 2018] [php7:notice] [pid 9356:tid 776] [client ::1:31230] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\get_users.php:0, referer: http://localhost/paper/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154881730892
+[Tue Jan 09 16:57:46.583733 2018] [php7:notice] [pid 9356:tid 776] [client ::1:31234] PHP Notice:  Undefined offset: 0 in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\get_users.php on line 14, referer: http://localhost/paper/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154881730892
+[Tue Jan 09 16:57:46.583733 2018] [php7:notice] [pid 9356:tid 776] [client ::1:31234] PHP Stack trace:, referer: http://localhost/paper/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154881730892
+[Tue Jan 09 16:57:46.583733 2018] [php7:notice] [pid 9356:tid 776] [client ::1:31234] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\get_users.php:0, referer: http://localhost/paper/index.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154881730892
+[Tue Jan 09 19:03:29.711175 2018] [php7:error] [pid 9356:tid 756] [client ::1:35510] script 'F:/httpd-2.4.29-Win64-VC15/Apache24/htdocs/paper/sing_in.php' not found or unable to stat, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:03:40.800810 2018] [mpm_winnt:notice] [pid 5092:tid 360] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Jan 09 19:03:40.880814 2018] [mpm_winnt:notice] [pid 5092:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.1 configured -- resuming normal operations
+[Tue Jan 09 19:03:40.880814 2018] [mpm_winnt:notice] [pid 5092:tid 360] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Tue Jan 09 19:03:40.880814 2018] [core:notice] [pid 5092:tid 360] AH00094: Command line: 'F:\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d F:/httpd-2.4.29-Win64-VC15/Apache24'
+[Tue Jan 09 19:03:40.890815 2018] [mpm_winnt:notice] [pid 5092:tid 360] AH00418: Parent: Created child process 7832
+[Tue Jan 09 19:03:41.800867 2018] [mpm_winnt:notice] [pid 7832:tid 252] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 09 19:03:43.884986 2018] [php7:error] [pid 9356:tid 756] [client ::1:35515] script 'F:/httpd-2.4.29-Win64-VC15/Apache24/htdocs/paper/sing_in.php' not found or unable to stat, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:03:56.220692 2018] [mpm_winnt:notice] [pid 9356:tid 252] AH00364: Child: All worker threads have exited.
+[Tue Jan 09 19:04:00.480935 2018] [mpm_winnt:notice] [pid 5092:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 09 19:04:02.481050 2018] [mpm_winnt:notice] [pid 7832:tid 252] AH00364: Child: All worker threads have exited.
+[Tue Jan 09 19:04:02.499051 2018] [mpm_winnt:notice] [pid 5092:tid 360] AH00430: Parent: Child process 7832 exited successfully.
+[Tue Jan 09 19:04:20.931105 2018] [mpm_winnt:notice] [pid 6060:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.1 configured -- resuming normal operations
+[Tue Jan 09 19:04:20.931105 2018] [mpm_winnt:notice] [pid 6060:tid 360] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Tue Jan 09 19:04:20.931105 2018] [core:notice] [pid 6060:tid 360] AH00094: Command line: 'F:\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d F:/httpd-2.4.29-Win64-VC15/Apache24'
+[Tue Jan 09 19:04:20.936105 2018] [mpm_winnt:notice] [pid 6060:tid 360] AH00418: Parent: Created child process 7988
+[Tue Jan 09 19:04:21.318127 2018] [mpm_winnt:notice] [pid 7988:tid 252] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 09 19:04:25.667376 2018] [php7:error] [pid 7988:tid 776] [client ::1:35532] script 'F:/httpd-2.4.29-Win64-VC15/Apache24/htdocs/paper/sing_in.php' not found or unable to stat, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:04:26.338414 2018] [php7:error] [pid 7988:tid 776] [client ::1:35532] script 'F:/httpd-2.4.29-Win64-VC15/Apache24/htdocs/paper/sing_in.php' not found or unable to stat, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:04:32.383760 2018] [php7:error] [pid 7988:tid 776] [client ::1:35532] script 'F:/httpd-2.4.29-Win64-VC15/Apache24/htdocs/paper/sing_in.php' not found or unable to stat, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:05:03.223524 2018] [mpm_winnt:notice] [pid 6060:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 09 19:05:05.224638 2018] [mpm_winnt:notice] [pid 7988:tid 252] AH00364: Child: All worker threads have exited.
+[Tue Jan 09 19:05:05.243639 2018] [mpm_winnt:notice] [pid 6060:tid 360] AH00430: Parent: Child process 7988 exited successfully.
+[Tue Jan 09 19:05:14.037142 2018] [mpm_winnt:notice] [pid 2220:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.1 configured -- resuming normal operations
+[Tue Jan 09 19:05:14.037142 2018] [mpm_winnt:notice] [pid 2220:tid 360] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Tue Jan 09 19:05:14.037142 2018] [core:notice] [pid 2220:tid 360] AH00094: Command line: 'F:\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d F:/httpd-2.4.29-Win64-VC15/Apache24'
+[Tue Jan 09 19:05:14.047143 2018] [mpm_winnt:notice] [pid 2220:tid 360] AH00418: Parent: Created child process 6780
+[Tue Jan 09 19:05:14.371161 2018] [mpm_winnt:notice] [pid 6780:tid 252] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 09 19:05:24.731754 2018] [php7:notice] [pid 6780:tid 780] [client ::1:35550] PHP Notice:  Undefined index: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 2
+[Tue Jan 09 19:05:24.731754 2018] [php7:notice] [pid 6780:tid 780] [client ::1:35550] PHP Stack trace:
+[Tue Jan 09 19:05:24.731754 2018] [php7:notice] [pid 6780:tid 780] [client ::1:35550] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0
+[Tue Jan 09 19:05:24.731754 2018] [php7:notice] [pid 6780:tid 780] [client ::1:35550] PHP Notice:  Undefined index: password in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 3
+[Tue Jan 09 19:05:24.731754 2018] [php7:notice] [pid 6780:tid 780] [client ::1:35550] PHP Stack trace:
+[Tue Jan 09 19:05:24.731754 2018] [php7:notice] [pid 6780:tid 780] [client ::1:35550] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0
+[Tue Jan 09 19:05:36.081403 2018] [php7:error] [pid 6780:tid 776] [client ::1:35555] script 'F:/httpd-2.4.29-Win64-VC15/Apache24/htdocs/paper/sing_in.php' not found or unable to stat, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:06:19.933911 2018] [php7:error] [pid 6780:tid 776] [client ::1:35558] script 'F:/httpd-2.4.29-Win64-VC15/Apache24/htdocs/paper/sing_in.php' not found or unable to stat, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154959245324
+[Tue Jan 09 19:08:23.751993 2018] [php7:notice] [pid 6780:tid 776] [client ::1:35561] PHP Notice:  Undefined index: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_up.php on line 2
+[Tue Jan 09 19:08:23.751993 2018] [php7:notice] [pid 6780:tid 776] [client ::1:35561] PHP Stack trace:
+[Tue Jan 09 19:08:23.751993 2018] [php7:notice] [pid 6780:tid 776] [client ::1:35561] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_up.php:0
+[Tue Jan 09 19:08:23.751993 2018] [php7:notice] [pid 6780:tid 776] [client ::1:35561] PHP Notice:  Undefined index: password in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_up.php on line 3
+[Tue Jan 09 19:08:23.751993 2018] [php7:notice] [pid 6780:tid 776] [client ::1:35561] PHP Stack trace:
+[Tue Jan 09 19:08:23.751993 2018] [php7:notice] [pid 6780:tid 776] [client ::1:35561] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_up.php:0
+[Tue Jan 09 19:08:54.286740 2018] [php7:notice] [pid 6780:tid 776] [client ::1:35564] PHP Notice:  Undefined index: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_up.php on line 2
+[Tue Jan 09 19:08:54.286740 2018] [php7:notice] [pid 6780:tid 776] [client ::1:35564] PHP Stack trace:
+[Tue Jan 09 19:08:54.286740 2018] [php7:notice] [pid 6780:tid 776] [client ::1:35564] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_up.php:0
+[Tue Jan 09 19:08:54.286740 2018] [php7:notice] [pid 6780:tid 776] [client ::1:35564] PHP Notice:  Undefined index: password in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_up.php on line 3
+[Tue Jan 09 19:08:54.286740 2018] [php7:notice] [pid 6780:tid 776] [client ::1:35564] PHP Stack trace:
+[Tue Jan 09 19:08:54.286740 2018] [php7:notice] [pid 6780:tid 776] [client ::1:35564] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_up.php:0
+[Tue Jan 09 19:12:26.768893 2018] [php7:error] [pid 6780:tid 776] [client ::1:35605] script 'F:/httpd-2.4.29-Win64-VC15/Apache24/htdocs/paper/sing_in.php' not found or unable to stat, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154963437285
+[Tue Jan 09 19:25:01.723074 2018] [php7:error] [pid 6780:tid 776] [client ::1:36021] script 'F:/httpd-2.4.29-Win64-VC15/Apache24/htdocs/paper/sing_in.php' not found or unable to stat, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154963437285
+[Tue Jan 09 19:25:07.106382 2018] [php7:error] [pid 6780:tid 776] [client ::1:36021] script 'F:/httpd-2.4.29-Win64-VC15/Apache24/htdocs/paper/sing_in.php' not found or unable to stat, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15154963437285
+[Tue Jan 09 19:25:33.263878 2018] [php7:error] [pid 6780:tid 776] [client ::1:36041] script 'F:/httpd-2.4.29-Win64-VC15/Apache24/htdocs/login.php' not found or unable to stat
+[Tue Jan 09 19:25:49.969834 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36056] PHP Notice:  Undefined index: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 2, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:25:49.969834 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36056] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:25:49.969834 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36056] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:25:49.969834 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36056] PHP Notice:  Undefined index: password in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 3, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:25:49.969834 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36056] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:25:49.969834 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36056] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:25:52.169960 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36056] PHP Notice:  Undefined index: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 2, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:25:52.169960 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36056] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:25:52.169960 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36056] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:25:52.169960 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36056] PHP Notice:  Undefined index: password in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 3, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:25:52.169960 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36056] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:25:52.169960 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36056] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:25:55.762165 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36056] PHP Notice:  Undefined index: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 2, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:25:55.762165 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36056] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:25:55.762165 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36056] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:25:55.762165 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36056] PHP Notice:  Undefined index: password in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 3, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:25:55.762165 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36056] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:25:55.762165 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36056] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:27:01.535927 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36181] PHP Notice:  Undefined index: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 2, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:27:01.535927 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36181] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:27:01.535927 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36181] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:27:01.535927 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36181] PHP Notice:  Undefined index: password in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 3, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:27:01.535927 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36181] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:27:01.535927 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36181] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:28:41.875666 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36358] PHP Notice:  Undefined index: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 2, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:28:41.875666 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36358] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:28:41.875666 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36358] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:28:41.875666 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36358] PHP Notice:  Undefined index: password in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 3, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:28:41.875666 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36358] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:28:41.875666 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36358] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:30:43.355614 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36566] PHP Notice:  Undefined index: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 2, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:30:43.355614 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36566] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:30:43.355614 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36566] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:30:43.355614 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36566] PHP Notice:  Undefined index: password in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 3, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:30:43.355614 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36566] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:30:43.355614 2018] [php7:notice] [pid 6780:tid 776] [client ::1:36566] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Tue Jan 09 19:46:49.151855 2018] [mpm_winnt:notice] [pid 2220:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 09 19:46:51.151969 2018] [mpm_winnt:notice] [pid 6780:tid 252] AH00364: Child: All worker threads have exited.
+[Tue Jan 09 19:46:51.175971 2018] [mpm_winnt:notice] [pid 2220:tid 360] AH00430: Parent: Child process 6780 exited successfully.
+[Tue Jan 09 21:03:46.677962 2018] [mpm_winnt:notice] [pid 9424:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.1 configured -- resuming normal operations
+[Tue Jan 09 21:03:46.677962 2018] [mpm_winnt:notice] [pid 9424:tid 360] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Tue Jan 09 21:03:46.677962 2018] [core:notice] [pid 9424:tid 360] AH00094: Command line: 'F:\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d F:/httpd-2.4.29-Win64-VC15/Apache24'
+[Tue Jan 09 21:03:46.682962 2018] [mpm_winnt:notice] [pid 9424:tid 360] AH00418: Parent: Created child process 6076
+[Tue Jan 09 21:03:46.993980 2018] [mpm_winnt:notice] [pid 6076:tid 252] AH00354: Child: Starting 64 worker threads.
+[Tue Jan 09 21:16:25.815382 2018] [php7:notice] [pid 6076:tid 796] [client ::1:39811] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 7, referer: http://localhost/paper/login.php
+[Tue Jan 09 21:17:22.538627 2018] [php7:notice] [pid 6076:tid 796] [client ::1:39845] PHP Notice:  Undefined index: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_up.php on line 2
+[Tue Jan 09 21:17:22.538627 2018] [php7:notice] [pid 6076:tid 796] [client ::1:39845] PHP Stack trace:
+[Tue Jan 09 21:17:22.538627 2018] [php7:notice] [pid 6076:tid 796] [client ::1:39845] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_up.php:0
+[Tue Jan 09 21:17:22.538627 2018] [php7:notice] [pid 6076:tid 796] [client ::1:39845] PHP Notice:  Undefined index: password in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_up.php on line 3
+[Tue Jan 09 21:17:22.538627 2018] [php7:notice] [pid 6076:tid 796] [client ::1:39845] PHP Stack trace:
+[Tue Jan 09 21:17:22.538627 2018] [php7:notice] [pid 6076:tid 796] [client ::1:39845] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_up.php:0
+[Tue Jan 09 21:17:26.691864 2018] [php7:notice] [pid 6076:tid 776] [client ::1:39849] PHP Warning:  Creating default object from empty value in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 7, referer: http://localhost/paper/login.php
+[Tue Jan 09 21:17:26.691864 2018] [php7:notice] [pid 6076:tid 776] [client ::1:39849] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Tue Jan 09 21:17:26.691864 2018] [php7:notice] [pid 6076:tid 776] [client ::1:39849] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Tue Jan 09 21:18:13.668551 2018] [mpm_winnt:notice] [pid 9424:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Jan 09 21:18:15.669666 2018] [mpm_winnt:notice] [pid 6076:tid 252] AH00364: Child: All worker threads have exited.
+[Tue Jan 09 21:18:15.687667 2018] [mpm_winnt:notice] [pid 9424:tid 360] AH00430: Parent: Child process 6076 exited successfully.
+[Wed Jan 10 12:22:33.357138 2018] [mpm_winnt:notice] [pid 4544:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.1 configured -- resuming normal operations
+[Wed Jan 10 12:22:33.357138 2018] [mpm_winnt:notice] [pid 4544:tid 360] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Wed Jan 10 12:22:33.357138 2018] [core:notice] [pid 4544:tid 360] AH00094: Command line: 'F:\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d F:/httpd-2.4.29-Win64-VC15/Apache24'
+[Wed Jan 10 12:22:33.372738 2018] [mpm_winnt:notice] [pid 4544:tid 360] AH00418: Parent: Created child process 6472
+[Wed Jan 10 12:22:33.778339 2018] [mpm_winnt:notice] [pid 6472:tid 252] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 10 14:35:05.369503 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3223] PHP Notice:  Trying to get property 'num_rows' of non-object in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 10, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:35:05.369503 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3223] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:35:05.369503 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3223] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:35:24.465595 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3254] PHP Notice:  Trying to get property 'num_rows' of non-object in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 10, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:35:24.465595 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3254] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:35:24.465595 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3254] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:35:44.839760 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3296] PHP Notice:  Trying to get property 'num_rows' of non-object in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 10, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:35:44.839760 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3296] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:35:44.839760 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3296] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:37:32.506918 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3379] PHP Notice:  Undefined index: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 2
+[Wed Jan 10 14:37:32.506918 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3379] PHP Stack trace:
+[Wed Jan 10 14:37:32.506918 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3379] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0
+[Wed Jan 10 14:39:17.457921 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3404] PHP Notice:  Trying to get property 'num_rows' of non-object in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 10, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:39:17.457921 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3404] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:39:17.457921 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3404] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:39:41.846316 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3420] PHP Notice:  Undefined index: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 2
+[Wed Jan 10 14:39:41.846316 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3420] PHP Stack trace:
+[Wed Jan 10 14:39:41.846316 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3420] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0
+[Wed Jan 10 14:39:43.686422 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3420] PHP Notice:  Undefined index: password in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 3
+[Wed Jan 10 14:39:43.686422 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3420] PHP Stack trace:
+[Wed Jan 10 14:39:43.686422 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3420] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0
+[Wed Jan 10 14:39:48.415692 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3420] PHP Notice:  Trying to get property 'num_rows' of non-object in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 10
+[Wed Jan 10 14:39:48.415692 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3420] PHP Stack trace:
+[Wed Jan 10 14:39:48.415692 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3420] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0
+[Wed Jan 10 14:42:03.022391 2018] [php7:notice] [pid 6472:tid 756] [client ::1:3557] PHP Notice:  Trying to get property 'num_rows' of non-object in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 16, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:42:03.022391 2018] [php7:notice] [pid 6472:tid 756] [client ::1:3557] PHP Stack trace:, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:42:03.022391 2018] [php7:notice] [pid 6472:tid 756] [client ::1:3557] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:42:14.408042 2018] [php7:notice] [pid 6472:tid 756] [client ::1:3557] PHP Notice:  Trying to get property 'num_rows' of non-object in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 16, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:42:14.408042 2018] [php7:notice] [pid 6472:tid 756] [client ::1:3557] PHP Stack trace:, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:42:14.408042 2018] [php7:notice] [pid 6472:tid 756] [client ::1:3557] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:42:26.429730 2018] [php7:notice] [pid 6472:tid 756] [client ::1:3557] PHP Notice:  Trying to get property 'num_rows' of non-object in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 16, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:42:26.429730 2018] [php7:notice] [pid 6472:tid 756] [client ::1:3557] PHP Stack trace:, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:42:26.429730 2018] [php7:notice] [pid 6472:tid 756] [client ::1:3557] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:43:53.370703 2018] [php7:notice] [pid 6472:tid 756] [client ::1:3638] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 5, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:43:53.370703 2018] [php7:notice] [pid 6472:tid 756] [client ::1:3638] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:43:53.370703 2018] [php7:notice] [pid 6472:tid 756] [client ::1:3638] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:43:58.880018 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3641] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 5, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:43:58.880018 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3641] PHP Stack trace:, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:43:58.880018 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3641] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:44:26.558601 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3653] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:44:26.559601 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3653] PHP Stack trace:, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:44:26.559601 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3653] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:44:40.553401 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3665] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:44:40.553401 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3665] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:44:40.553401 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3665] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:44:49.735927 2018] [php7:notice] [pid 6472:tid 764] [client ::1:3687] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:44:49.735927 2018] [php7:notice] [pid 6472:tid 764] [client ::1:3687] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:44:49.735927 2018] [php7:notice] [pid 6472:tid 764] [client ::1:3687] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:44:51.408022 2018] [php7:notice] [pid 6472:tid 764] [client ::1:3687] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:44:51.408022 2018] [php7:notice] [pid 6472:tid 764] [client ::1:3687] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:44:51.408022 2018] [php7:notice] [pid 6472:tid 764] [client ::1:3687] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:45:19.898652 2018] [php7:notice] [pid 6472:tid 764] [client ::1:3741] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:45:19.898652 2018] [php7:notice] [pid 6472:tid 764] [client ::1:3741] PHP Stack trace:, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:45:19.898652 2018] [php7:notice] [pid 6472:tid 764] [client ::1:3741] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:45:56.739759 2018] [php7:notice] [pid 6472:tid 748] [client ::1:3784] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:45:56.739759 2018] [php7:notice] [pid 6472:tid 748] [client ::1:3784] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:45:56.740759 2018] [php7:notice] [pid 6472:tid 748] [client ::1:3784] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:45:58.757874 2018] [php7:notice] [pid 6472:tid 748] [client ::1:3784] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:45:58.757874 2018] [php7:notice] [pid 6472:tid 748] [client ::1:3784] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:45:58.757874 2018] [php7:notice] [pid 6472:tid 748] [client ::1:3784] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:46:57.727247 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3837] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:46:57.727247 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3837] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:46:57.727247 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3837] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:47:03.152558 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3837] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:47:03.152558 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3837] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:47:03.152558 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3837] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:47:06.222733 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3837] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:47:06.222733 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3837] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:47:06.222733 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3837] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:47:28.981035 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3878] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:47:28.981035 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3878] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:47:28.981035 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3878] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:47:35.407402 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3892] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:47:35.407402 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3892] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:47:35.407402 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3892] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:47:52.535382 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3918] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:47:52.535382 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3918] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:47:52.535382 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3918] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:47:53.848457 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3918] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:47:53.848457 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3918] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:47:53.848457 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3918] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:47:55.770567 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3918] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:47:55.770567 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3918] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:47:55.770567 2018] [php7:notice] [pid 6472:tid 776] [client ::1:3918] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:48:16.191735 2018] [php7:notice] [pid 6472:tid 764] [client ::1:3959] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:48:16.191735 2018] [php7:notice] [pid 6472:tid 764] [client ::1:3959] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:48:16.191735 2018] [php7:notice] [pid 6472:tid 764] [client ::1:3959] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:48:21.146019 2018] [php7:notice] [pid 6472:tid 764] [client ::1:3959] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:48:21.146019 2018] [php7:notice] [pid 6472:tid 764] [client ::1:3959] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:48:21.146019 2018] [php7:notice] [pid 6472:tid 764] [client ::1:3959] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:53:02.388105 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4680] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:53:02.388105 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4680] PHP Stack trace:, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:53:02.388105 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4680] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:53:28.655607 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4710] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:53:28.655607 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4710] PHP Stack trace:, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:53:28.655607 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4710] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155663748112#
+[Wed Jan 10 14:53:47.190667 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4777] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:53:47.190667 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4777] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:53:47.190667 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4777] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:53:59.305360 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4800] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:53:59.305360 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4800] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:53:59.305360 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4800] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:55:25.256276 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4951] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:55:25.256276 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4951] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:55:25.256276 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4951] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:55:26.672357 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4951] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:55:26.673357 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4951] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:55:26.673357 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4951] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:55:26.841367 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4951] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:55:26.841367 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4951] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:55:26.841367 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4951] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:55:32.334681 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4951] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:55:32.334681 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4951] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:55:32.334681 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4951] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:55:33.569752 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4951] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:55:33.569752 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4951] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:55:33.569752 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4951] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:55:39.138070 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4981] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:55:39.138070 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4981] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:55:39.138070 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4981] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:55:49.033636 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4999] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:55:49.033636 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4999] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:55:49.033636 2018] [php7:notice] [pid 6472:tid 764] [client ::1:4999] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 14:56:53.571328 2018] [mpm_winnt:notice] [pid 4544:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 10 14:56:55.571442 2018] [mpm_winnt:notice] [pid 6472:tid 252] AH00364: Child: All worker threads have exited.
+[Wed Jan 10 14:56:55.596443 2018] [mpm_winnt:notice] [pid 4544:tid 360] AH00430: Parent: Child process 6472 exited successfully.
+[Wed Jan 10 14:57:03.189878 2018] [mpm_winnt:notice] [pid 8176:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.1 configured -- resuming normal operations
+[Wed Jan 10 14:57:03.189878 2018] [mpm_winnt:notice] [pid 8176:tid 360] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Wed Jan 10 14:57:03.189878 2018] [core:notice] [pid 8176:tid 360] AH00094: Command line: 'F:\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d F:/httpd-2.4.29-Win64-VC15/Apache24'
+[Wed Jan 10 14:57:03.194878 2018] [mpm_winnt:notice] [pid 8176:tid 360] AH00418: Parent: Created child process 6548
+[Wed Jan 10 14:57:03.470894 2018] [mpm_winnt:notice] [pid 6548:tid 252] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 10 15:05:34.533125 2018] [php7:notice] [pid 6548:tid 776] [client ::1:6062] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 15:05:34.533125 2018] [php7:notice] [pid 6548:tid 776] [client ::1:6062] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 15:05:34.533125 2018] [php7:notice] [pid 6548:tid 776] [client ::1:6062] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 15:06:37.841746 2018] [mpm_winnt:notice] [pid 8176:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 10 15:06:39.841860 2018] [mpm_winnt:notice] [pid 6548:tid 252] AH00364: Child: All worker threads have exited.
+[Wed Jan 10 15:06:39.861861 2018] [mpm_winnt:notice] [pid 8176:tid 360] AH00430: Parent: Child process 6548 exited successfully.
+[Wed Jan 10 15:09:16.978011 2018] [mpm_winnt:notice] [pid 1844:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.1 configured -- resuming normal operations
+[Wed Jan 10 15:09:18.497098 2018] [mpm_winnt:notice] [pid 1844:tid 360] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Wed Jan 10 15:09:18.497098 2018] [core:notice] [pid 1844:tid 360] AH00094: Command line: 'F:\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d F:/httpd-2.4.29-Win64-VC15/Apache24'
+[Wed Jan 10 15:09:18.499098 2018] [mpm_winnt:notice] [pid 1844:tid 360] AH00418: Parent: Created child process 4524
+[Wed Jan 10 15:09:19.188138 2018] [mpm_winnt:notice] [pid 4524:tid 252] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 10 15:09:52.102128 2018] [mpm_winnt:notice] [pid 1844:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 10 15:09:54.130132 2018] [mpm_winnt:notice] [pid 4524:tid 252] AH00364: Child: All worker threads have exited.
+[Wed Jan 10 15:09:54.582533 2018] [mpm_winnt:notice] [pid 1844:tid 360] AH00430: Parent: Child process 4524 exited successfully.
+[Wed Jan 10 15:11:06.656264 2018] [mpm_winnt:notice] [pid 1872:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.1 configured -- resuming normal operations
+[Wed Jan 10 15:11:06.703064 2018] [mpm_winnt:notice] [pid 1872:tid 360] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Wed Jan 10 15:11:06.703064 2018] [core:notice] [pid 1872:tid 360] AH00094: Command line: 'F:\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d F:/httpd-2.4.29-Win64-VC15/Apache24'
+[Wed Jan 10 15:11:06.703064 2018] [mpm_winnt:notice] [pid 1872:tid 360] AH00418: Parent: Created child process 2008
+[Wed Jan 10 15:11:07.233465 2018] [mpm_winnt:notice] [pid 2008:tid 252] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 10 15:13:20.413635 2018] [mpm_winnt:notice] [pid 1872:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 10 15:13:22.441639 2018] [mpm_winnt:notice] [pid 2008:tid 252] AH00364: Child: All worker threads have exited.
+[Wed Jan 10 15:13:22.488439 2018] [mpm_winnt:notice] [pid 1872:tid 360] AH00430: Parent: Child process 2008 exited successfully.
+[Wed Jan 10 15:13:32.410056 2018] [mpm_winnt:notice] [pid 5288:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.1 configured -- resuming normal operations
+[Wed Jan 10 15:13:32.410056 2018] [mpm_winnt:notice] [pid 5288:tid 360] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Wed Jan 10 15:13:32.410056 2018] [core:notice] [pid 5288:tid 360] AH00094: Command line: 'F:\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d F:/httpd-2.4.29-Win64-VC15/Apache24'
+[Wed Jan 10 15:13:32.566057 2018] [mpm_winnt:notice] [pid 5288:tid 360] AH00418: Parent: Created child process 3972
+[Wed Jan 10 15:13:32.940457 2018] [mpm_winnt:notice] [pid 3972:tid 252] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 10 15:13:57.826800 2018] [php7:notice] [pid 3972:tid 776] [client ::1:1349] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php
+[Wed Jan 10 15:13:57.826800 2018] [php7:notice] [pid 3972:tid 776] [client ::1:1349] PHP Stack trace:, referer: http://localhost/paper/login.php
+[Wed Jan 10 15:13:57.826800 2018] [php7:notice] [pid 3972:tid 776] [client ::1:1349] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php
+[Wed Jan 10 15:17:30.401344 2018] [php7:notice] [pid 3972:tid 776] [client ::1:1570] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155686440091
+[Wed Jan 10 15:17:30.401344 2018] [php7:notice] [pid 3972:tid 776] [client ::1:1570] PHP Stack trace:, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155686440091
+[Wed Jan 10 15:17:30.401344 2018] [php7:notice] [pid 3972:tid 776] [client ::1:1570] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155686440091
+[Wed Jan 10 15:18:39.267283 2018] [php7:notice] [pid 3972:tid 776] [client ::1:1609] PHP Notice:  Undefined variable: name in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php on line 21, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155686440091#
+[Wed Jan 10 15:18:39.267283 2018] [php7:notice] [pid 3972:tid 776] [client ::1:1609] PHP Stack trace:, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155686440091#
+[Wed Jan 10 15:18:39.267283 2018] [php7:notice] [pid 3972:tid 776] [client ::1:1609] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\sign_in.php:0, referer: http://localhost/paper/login.php?XDEBUG_SESSION_START=ECLIPSE_DBGP&KEY=15155686440091#
+There was a problem sending 213 bytes on socket 1016: 您的主机中的软件中止了一个已建立的连接。
+[Wed Jan 10 16:18:39.211428 2018] [mpm_winnt:notice] [pid 5288:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 10 16:18:41.290547 2018] [mpm_winnt:notice] [pid 3972:tid 252] AH00364: Child: All worker threads have exited.
+[Wed Jan 10 16:18:41.333549 2018] [mpm_winnt:notice] [pid 5288:tid 360] AH00430: Parent: Child process 3972 exited successfully.
+[Wed Jan 10 17:09:53.063774 2018] [mpm_winnt:notice] [pid 7216:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.1 configured -- resuming normal operations
+[Wed Jan 10 17:09:53.063774 2018] [mpm_winnt:notice] [pid 7216:tid 360] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Wed Jan 10 17:09:53.063774 2018] [core:notice] [pid 7216:tid 360] AH00094: Command line: 'F:\\httpd-2.4.29-Win64-VC15\\Apache24\\bin\\httpd.exe -d F:/httpd-2.4.29-Win64-VC15/Apache24'
+[Wed Jan 10 17:09:53.067774 2018] [mpm_winnt:notice] [pid 7216:tid 360] AH00418: Parent: Created child process 7856
+[Wed Jan 10 17:09:53.347790 2018] [mpm_winnt:notice] [pid 7856:tid 252] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 10 17:11:07.478030 2018] [php7:notice] [pid 7856:tid 780] [client ::1:7931] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\check_login.php on line 3
+[Wed Jan 10 17:11:07.478030 2018] [php7:notice] [pid 7856:tid 780] [client ::1:7931] PHP Stack trace:
+[Wed Jan 10 17:11:07.478030 2018] [php7:notice] [pid 7856:tid 780] [client ::1:7931] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:07.478030 2018] [php7:notice] [pid 7856:tid 780] [client ::1:7931] PHP   2. include() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:2
+[Wed Jan 10 17:11:07.478030 2018] [php7:notice] [pid 7856:tid 780] [client ::1:7931] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106
+[Wed Jan 10 17:11:07.478030 2018] [php7:notice] [pid 7856:tid 780] [client ::1:7931] PHP Stack trace:
+[Wed Jan 10 17:11:07.478030 2018] [php7:notice] [pid 7856:tid 780] [client ::1:7931] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:17.940629 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\check_login.php on line 3
+[Wed Jan 10 17:11:17.940629 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Stack trace:
+[Wed Jan 10 17:11:17.940629 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:17.940629 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   2. include() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:2
+[Wed Jan 10 17:11:17.940629 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106
+[Wed Jan 10 17:11:17.940629 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Stack trace:
+[Wed Jan 10 17:11:17.940629 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:19.764733 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\check_login.php on line 3
+[Wed Jan 10 17:11:19.764733 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Stack trace:
+[Wed Jan 10 17:11:19.764733 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:19.764733 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   2. include() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:2
+[Wed Jan 10 17:11:19.765733 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106
+[Wed Jan 10 17:11:19.765733 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Stack trace:
+[Wed Jan 10 17:11:19.765733 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:20.938800 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\check_login.php on line 3
+[Wed Jan 10 17:11:20.938800 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Stack trace:
+[Wed Jan 10 17:11:20.938800 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:20.938800 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   2. include() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:2
+[Wed Jan 10 17:11:20.938800 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106
+[Wed Jan 10 17:11:20.938800 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Stack trace:
+[Wed Jan 10 17:11:20.938800 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:21.850853 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\check_login.php on line 3
+[Wed Jan 10 17:11:21.850853 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Stack trace:
+[Wed Jan 10 17:11:21.850853 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:21.850853 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   2. include() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:2
+[Wed Jan 10 17:11:21.850853 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106
+[Wed Jan 10 17:11:21.850853 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Stack trace:
+[Wed Jan 10 17:11:21.850853 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:22.607896 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\check_login.php on line 3
+[Wed Jan 10 17:11:22.607896 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Stack trace:
+[Wed Jan 10 17:11:22.607896 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:22.607896 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   2. include() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:2
+[Wed Jan 10 17:11:22.609896 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106
+[Wed Jan 10 17:11:22.609896 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Stack trace:
+[Wed Jan 10 17:11:22.609896 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:23.382940 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\check_login.php on line 3
+[Wed Jan 10 17:11:23.382940 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Stack trace:
+[Wed Jan 10 17:11:23.382940 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:23.382940 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   2. include() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:2
+[Wed Jan 10 17:11:23.382940 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106
+[Wed Jan 10 17:11:23.382940 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Stack trace:
+[Wed Jan 10 17:11:23.382940 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:24.067979 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\check_login.php on line 3
+[Wed Jan 10 17:11:24.067979 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Stack trace:
+[Wed Jan 10 17:11:24.067979 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:24.067979 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   2. include() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:2
+[Wed Jan 10 17:11:24.067979 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106
+[Wed Jan 10 17:11:24.067979 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Stack trace:
+[Wed Jan 10 17:11:24.067979 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:24.755019 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\check_login.php on line 3
+[Wed Jan 10 17:11:24.755019 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Stack trace:
+[Wed Jan 10 17:11:24.755019 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:24.755019 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   2. include() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:2
+[Wed Jan 10 17:11:24.755019 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106
+[Wed Jan 10 17:11:24.755019 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Stack trace:
+[Wed Jan 10 17:11:24.755019 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:25.508062 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\check_login.php on line 3
+[Wed Jan 10 17:11:25.508062 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Stack trace:
+[Wed Jan 10 17:11:25.508062 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:25.508062 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   2. include() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:2
+[Wed Jan 10 17:11:25.508062 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106
+[Wed Jan 10 17:11:25.508062 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Stack trace:
+[Wed Jan 10 17:11:25.508062 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:25.747075 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\check_login.php on line 3
+[Wed Jan 10 17:11:25.747075 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Stack trace:
+[Wed Jan 10 17:11:25.747075 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:25.747075 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   2. include() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:2
+[Wed Jan 10 17:11:25.747075 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106
+[Wed Jan 10 17:11:25.747075 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP Stack trace:
+[Wed Jan 10 17:11:25.747075 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7935] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:11:40.753934 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7974] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\check_login.php on line 3, referer: http://localhost/paper/
+[Wed Jan 10 17:11:40.753934 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7974] PHP Stack trace:, referer: http://localhost/paper/
+[Wed Jan 10 17:11:40.753934 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7974] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0, referer: http://localhost/paper/
+[Wed Jan 10 17:11:40.753934 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7974] PHP   2. include() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:2, referer: http://localhost/paper/
+[Wed Jan 10 17:11:40.754934 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7974] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106, referer: http://localhost/paper/
+[Wed Jan 10 17:11:40.754934 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7974] PHP Stack trace:, referer: http://localhost/paper/
+[Wed Jan 10 17:11:40.754934 2018] [php7:notice] [pid 7856:tid 772] [client ::1:7974] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0, referer: http://localhost/paper/
+[Wed Jan 10 17:11:46.053237 2018] [php7:notice] [pid 7856:tid 764] [client ::1:7976] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\check_login.php on line 3, referer: http://localhost/paper/
+[Wed Jan 10 17:11:46.053237 2018] [php7:notice] [pid 7856:tid 764] [client ::1:7976] PHP Stack trace:, referer: http://localhost/paper/
+[Wed Jan 10 17:11:46.053237 2018] [php7:notice] [pid 7856:tid 764] [client ::1:7976] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0, referer: http://localhost/paper/
+[Wed Jan 10 17:11:46.053237 2018] [php7:notice] [pid 7856:tid 764] [client ::1:7976] PHP   2. include() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:2, referer: http://localhost/paper/
+[Wed Jan 10 17:11:46.053237 2018] [php7:notice] [pid 7856:tid 764] [client ::1:7976] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106, referer: http://localhost/paper/
+[Wed Jan 10 17:11:46.053237 2018] [php7:notice] [pid 7856:tid 764] [client ::1:7976] PHP Stack trace:, referer: http://localhost/paper/
+[Wed Jan 10 17:11:46.053237 2018] [php7:notice] [pid 7856:tid 764] [client ::1:7976] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0, referer: http://localhost/paper/
+[Wed Jan 10 17:12:04.660301 2018] [php7:notice] [pid 7856:tid 764] [client ::1:8039] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\check_login.php on line 3
+[Wed Jan 10 17:12:04.660301 2018] [php7:notice] [pid 7856:tid 764] [client ::1:8039] PHP Stack trace:
+[Wed Jan 10 17:12:04.660301 2018] [php7:notice] [pid 7856:tid 764] [client ::1:8039] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:12:04.660301 2018] [php7:notice] [pid 7856:tid 764] [client ::1:8039] PHP   2. include() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:2
+[Wed Jan 10 17:12:04.660301 2018] [php7:notice] [pid 7856:tid 764] [client ::1:8039] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106
+[Wed Jan 10 17:12:04.660301 2018] [php7:notice] [pid 7856:tid 764] [client ::1:8039] PHP Stack trace:
+[Wed Jan 10 17:12:04.660301 2018] [php7:notice] [pid 7856:tid 764] [client ::1:8039] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:13:57.491755 2018] [php7:notice] [pid 7856:tid 744] [client ::1:8273] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\check_login.php on line 3, referer: http://localhost/paper/
+[Wed Jan 10 17:13:57.491755 2018] [php7:notice] [pid 7856:tid 744] [client ::1:8273] PHP Stack trace:, referer: http://localhost/paper/
+[Wed Jan 10 17:13:57.491755 2018] [php7:notice] [pid 7856:tid 744] [client ::1:8273] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0, referer: http://localhost/paper/
+[Wed Jan 10 17:13:57.492755 2018] [php7:notice] [pid 7856:tid 744] [client ::1:8273] PHP   2. include() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:2, referer: http://localhost/paper/
+[Wed Jan 10 17:13:57.492755 2018] [php7:notice] [pid 7856:tid 744] [client ::1:8273] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106, referer: http://localhost/paper/
+[Wed Jan 10 17:13:57.492755 2018] [php7:notice] [pid 7856:tid 744] [client ::1:8273] PHP Stack trace:, referer: http://localhost/paper/
+[Wed Jan 10 17:13:57.492755 2018] [php7:notice] [pid 7856:tid 744] [client ::1:8273] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0, referer: http://localhost/paper/
+[Wed Jan 10 17:14:10.669508 2018] [php7:notice] [pid 7856:tid 740] [client ::1:8310] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\check_login.php on line 3, referer: http://localhost/paper/
+[Wed Jan 10 17:14:10.669508 2018] [php7:notice] [pid 7856:tid 740] [client ::1:8310] PHP Stack trace:, referer: http://localhost/paper/
+[Wed Jan 10 17:14:10.669508 2018] [php7:notice] [pid 7856:tid 740] [client ::1:8310] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0, referer: http://localhost/paper/
+[Wed Jan 10 17:14:10.670508 2018] [php7:notice] [pid 7856:tid 740] [client ::1:8310] PHP   2. include() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:2, referer: http://localhost/paper/
+[Wed Jan 10 17:14:10.670508 2018] [php7:notice] [pid 7856:tid 740] [client ::1:8310] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106, referer: http://localhost/paper/
+[Wed Jan 10 17:14:10.670508 2018] [php7:notice] [pid 7856:tid 740] [client ::1:8310] PHP Stack trace:, referer: http://localhost/paper/
+[Wed Jan 10 17:14:10.670508 2018] [php7:notice] [pid 7856:tid 740] [client ::1:8310] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0, referer: http://localhost/paper/
+[Wed Jan 10 17:14:32.085733 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8358] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\check_login.php on line 3, referer: http://localhost/paper/
+[Wed Jan 10 17:14:32.085733 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8358] PHP Stack trace:, referer: http://localhost/paper/
+[Wed Jan 10 17:14:32.085733 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8358] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0, referer: http://localhost/paper/
+[Wed Jan 10 17:14:32.085733 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8358] PHP   2. include() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:2, referer: http://localhost/paper/
+[Wed Jan 10 17:14:32.085733 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8358] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106, referer: http://localhost/paper/
+[Wed Jan 10 17:14:32.085733 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8358] PHP Stack trace:, referer: http://localhost/paper/
+[Wed Jan 10 17:14:32.085733 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8358] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0, referer: http://localhost/paper/
+[Wed Jan 10 17:15:07.795776 2018] [php7:notice] [pid 7856:tid 764] [client ::1:8433] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\check_login.php on line 3, referer: http://localhost/paper/
+[Wed Jan 10 17:15:07.795776 2018] [php7:notice] [pid 7856:tid 764] [client ::1:8433] PHP Stack trace:, referer: http://localhost/paper/
+[Wed Jan 10 17:15:07.795776 2018] [php7:notice] [pid 7856:tid 764] [client ::1:8433] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0, referer: http://localhost/paper/
+[Wed Jan 10 17:15:07.795776 2018] [php7:notice] [pid 7856:tid 764] [client ::1:8433] PHP   2. include() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:2, referer: http://localhost/paper/
+[Wed Jan 10 17:15:07.795776 2018] [php7:notice] [pid 7856:tid 764] [client ::1:8433] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106, referer: http://localhost/paper/
+[Wed Jan 10 17:15:07.795776 2018] [php7:notice] [pid 7856:tid 764] [client ::1:8433] PHP Stack trace:, referer: http://localhost/paper/
+[Wed Jan 10 17:15:07.795776 2018] [php7:notice] [pid 7856:tid 764] [client ::1:8433] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0, referer: http://localhost/paper/
+[Wed Jan 10 17:15:21.390553 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8448] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\check_login.php on line 3
+[Wed Jan 10 17:15:21.390553 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8448] PHP Stack trace:
+[Wed Jan 10 17:15:21.390553 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8448] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:15:21.390553 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8448] PHP   2. include() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:2
+[Wed Jan 10 17:15:26.954872 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8448] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106
+[Wed Jan 10 17:15:26.954872 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8448] PHP Stack trace:
+[Wed Jan 10 17:15:26.954872 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8448] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 17:16:54.945904 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8691] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106, referer: http://localhost/paper/
+[Wed Jan 10 17:16:54.945904 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8691] PHP Stack trace:, referer: http://localhost/paper/
+[Wed Jan 10 17:16:54.945904 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8691] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0, referer: http://localhost/paper/
+[Wed Jan 10 17:17:20.217350 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8739] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106, referer: http://localhost/paper/
+[Wed Jan 10 17:17:20.217350 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8739] PHP Stack trace:, referer: http://localhost/paper/
+[Wed Jan 10 17:17:20.217350 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8739] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0, referer: http://localhost/paper/
+[Wed Jan 10 17:17:25.236637 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8739] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106, referer: http://localhost/paper/
+[Wed Jan 10 17:17:25.236637 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8739] PHP Stack trace:, referer: http://localhost/paper/
+[Wed Jan 10 17:17:25.236637 2018] [php7:notice] [pid 7856:tid 780] [client ::1:8739] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0, referer: http://localhost/paper/
+[Wed Jan 10 17:17:39.857473 2018] [php7:notice] [pid 7856:tid 764] [client ::1:8780] PHP Notice:  Undefined index: account in F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php on line 106
+[Wed Jan 10 17:17:39.857473 2018] [php7:notice] [pid 7856:tid 764] [client ::1:8780] PHP Stack trace:
+[Wed Jan 10 17:17:39.857473 2018] [php7:notice] [pid 7856:tid 764] [client ::1:8780] PHP   1. {main}() F:\\httpd-2.4.29-Win64-VC15\\Apache24\\htdocs\\paper\\index.php:0
+[Wed Jan 10 18:30:29.163129 2018] [mpm_winnt:notice] [pid 7216:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 10 18:30:31.173244 2018] [mpm_winnt:notice] [pid 7856:tid 252] AH00364: Child: All worker threads have exited.
+[Wed Jan 10 18:30:31.197245 2018] [mpm_winnt:notice] [pid 7216:tid 360] AH00430: Parent: Child process 7856 exited successfully.
+[Wed Jan 10 18:41:03.119389 2018] [mpm_winnt:notice] [pid 10168:tid 360] AH00455: Apache/2.4.29 (Win64) PHP/7.2.1 configured -- resuming normal operations
+[Wed Jan 10 18:41:03.119389 2018] [mpm_winnt:notice] [pid 10168:tid 360] AH00456: Apache Lounge VC15 Server built: Nov  3 2017 11:12:00
+[Wed Jan 10 18:41:03.119389 2018] [core:notice] [pid 10168:tid 360] AH00094: Command line: 'F:\\project_paper\\Apache24\\bin\\httpd.exe -d F:/project_paper/Apache24'
+[Wed Jan 10 18:41:03.123390 2018] [mpm_winnt:notice] [pid 10168:tid 360] AH00418: Parent: Created child process 8640
+[Wed Jan 10 18:41:03.430407 2018] [mpm_winnt:notice] [pid 8640:tid 252] AH00354: Child: Starting 64 worker threads.
+[Wed Jan 10 18:41:15.389091 2018] [php7:notice] [pid 8640:tid 776] [client ::1:17286] PHP Notice:  Undefined index: account in F:\\project_paper\\Apache24\\htdocs\\paper\\index.php on line 102, referer: http://localhost/paper/
+[Wed Jan 10 18:41:15.389091 2018] [php7:notice] [pid 8640:tid 776] [client ::1:17286] PHP Stack trace:, referer: http://localhost/paper/
+[Wed Jan 10 18:41:15.389091 2018] [php7:notice] [pid 8640:tid 776] [client ::1:17286] PHP   1. {main}() F:\\project_paper\\Apache24\\htdocs\\paper\\index.php:0, referer: http://localhost/paper/
+[Wed Jan 10 18:45:10.233523 2018] [mpm_winnt:notice] [pid 10168:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 10 18:45:12.233638 2018] [mpm_winnt:notice] [pid 8640:tid 252] AH00364: Child: All worker threads have exited.
+[Wed Jan 10 18:45:12.253639 2018] [mpm_winnt:notice] [pid 10168:tid 360] AH00430: Parent: Child process 8640 exited successfully.

@@ -1,0 +1,14 @@
+<?php
+    $name = $_REQUEST['name'];
+    $password = $_REQUEST['password'];
+    
+    include 'conn.php';
+    
+    $sql = "insert into users(firstname,lastname,phone,email) values('$firstname','$lastname','$phone','$email')";
+    $result = $conn->query($sql);
+    if ($result){
+        echo json_encode(array('success'=>true));
+    } else {
+        echo json_encode(array('msg'=>'Some errors occured.'));
+    }
+?>

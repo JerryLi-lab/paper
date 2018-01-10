@@ -1,0 +1,21 @@
+<?php
+    $account = $_REQUEST['account'];
+    $password = $_REQUEST['password'];
+    $firstname = $_REQUEST['firstname'];
+    $lastname = $_REQUEST['lastname'];
+    $phone = $_REQUEST['phone'];
+    $email = $_REQUEST['email'];
+    $department = isset($_REQUEST['department']) ? intval($_REQUEST['department']) : 2;
+    $position = isset($_REQUEST['position']) ? intval($_REQUEST['position']) : 2;
+    
+    include 'conn.php';
+    
+    $sql = "insert into users(account, password, firstname, lastname, phone, email, ) values('$firstname','$lastname','$phone','$email')";
+    $result = $conn->query($sql);
+    if ($result){
+        echo json_encode(array('success'=>true));
+    } else {
+        echo json_encode(array('msg'=>'Some errors occured.'));
+    }
+    
+?>
